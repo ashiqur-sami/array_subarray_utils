@@ -11,3 +11,25 @@ A Python library to compute subarray sums efficiently.
 ## Installation
 ```bash
 pip install array-subarray-utils
+```
+## Usage
+Here is how you can use this project:
+
+### Python Code Example
+```python
+from array_subarray_utils import SubarrayUtils
+
+arr = [5, -3, 5]
+
+# Maximum subarray sum
+print(SubarrayUtils.max_subarray_sum(arr))  # Output: 10
+
+# Minimum subarray sum
+print(SubarrayUtils.min_subarray_sum(arr))  # Output: -3
+
+# Maximum circular subarray sum
+print(SubarrayUtils.max_circular_subarray_sum(arr))  # Output: 12
+
+# Minimum circular subarray sum
+print(SubarrayUtils.min_circular_subarray_sum(arr))  # Output: -3
+```
